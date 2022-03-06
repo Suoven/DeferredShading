@@ -1,15 +1,3 @@
-- IMPORTANT NOTES:
-- There are two extra check box values in the HBAO imgui that change the method for obtaining the occlusion, by default it is using the normal
-form the gbuffer and using the angle from the horizontal vector to the tangent vector as an input for the occlusion computation. If we select the 
-tangent method it will use as an input the horizontal angle only and the tangent angle will be used to check the first sample to satisfy. The other 
-check box is used to change between using the normal in the first method, instead of using the normal of the gbuffer we use the normal computed by dFdx, dFdy.
-These three modes create different results but at the end I think that the more realistic and the one that gives less artifacts is the first method, so none 
-of the 2 extra checkbox should be enabled.
-
-- In order to make the decals work there needs to be a Cube.gltf inside the data/gltf folder
-- Is important for the solution to work if you put point lights to have inside the data/gltf folder a Shpere.gltf model 
-- The screenshot will be saved inside the data/screenshots folder
-
 1. How to use your program: 
 	LShift: move faster with WASD
 	WS: move the camera forward/backward along its forward vector.
