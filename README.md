@@ -1,6 +1,8 @@
 # Differed Shading Pipeline
 Deferred shading pipeline that allows for multiple lights, and enhanced with different post processing effects like Bloom, Decals, Horizontal Ambient Occlusion, HDR.
 
+![This is a alt text.](/OctreeImplementation/resources/octree.gif "Octree in action")
+
 # How to use program: 
 	LShift: move faster with WASD
 	WS: move the camera forward/backward along its forward vector.
