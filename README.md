@@ -1,7 +1,14 @@
 # Differed Shading Pipeline
 Deferred shading pipeline that allows for multiple lights, and enhanced with different post processing effects like Bloom, Decals, Horizontal Ambient Occlusion, HDR.
 
-![This is a alt text.](/OctreeImplementation/resources/octree.gif "Octree in action")
+- Differed shading allow for hundreds of lights in the scene in real time with Bloom effects
+![This is a alt text.](/docs/video1.gif)
+
+- Horizontal Ambient Occlusion that can be customized
+![This is a alt text.](/docs/video2.gif)
+
+- Decals post process effects
+![This is a alt text.](/docs/video3.gif)
 
 # How to use program: 
 	LShift: move faster with WASD
